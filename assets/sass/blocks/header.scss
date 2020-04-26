@@ -1,17 +1,17 @@
-.header {
+.header{
     margin-top: 1rem;
     background-color: $dark_blue;
 }
-.header__inner {
+.header__inner{
     display: flex;
     align-items: center;
     padding: .4rem 0;
 }
-.header__logo-icon {
+.header__logo-icon{
     border: 1px solid $white;
     margin-top: 0.1rem;
 }
-.header__logo-text {
+.header__logo-text{
     width: 100%;
     font-size: .61rem;
     text-transform: uppercase;
@@ -22,8 +22,32 @@
     text-transform: uppercase;
 }
 .header__more{
+    height: 100%;
     margin-left: -3rem;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    &li {
+        height: 100%;
+    }
+    &-search{
+        padding: 0 1rem;
+    }
+    &-add{
+        margin-left: 3rem;
+        text-transform: uppercase;
+    }
+    &-link{
+        color: $white;
+        text-decoration: none;
+        text-align: center;
+        &-lang{
+            color: $white;
+            text-decoration: none;
+            text-align: center;
+            padding: .3rem .5rem;
+            border: .5px solid $white;
+            border-radius: 4px;
+        }
+    }
 }
