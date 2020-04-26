@@ -1,0 +1,29 @@
+.header {
+    margin-top: 1rem;
+    background-color: $dark_blue;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    padding: .4rem 0;
+}
+.header__logo-icon {
+    border: 1px solid $white;
+    margin-top: 0.1rem;
+}
+.header__logo-text {
+    width: 100%;
+    font-size: .61rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.header__title{
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+}
+.header__more{
+    margin-left: -3rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
