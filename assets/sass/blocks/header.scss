@@ -1,11 +1,26 @@
 .header{
     margin-top: 1rem;
-    background-color: $dark_blue;
+    background-color: $dark_blue;    
 }
 .header__inner{
     display: flex;
     align-items: center;
     padding: .4rem 0;
+    text-transform: uppercase;
+}
+.header__item{
+    display: flex;
+    max-width: 100%;
+    & li {
+        height: 90px;
+    }
+    & a {
+        display: block;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 .5rem;
+    }
 }
 .header__logo-icon{
     border: 1px solid $white;
@@ -14,29 +29,16 @@
 .header__logo-text{
     width: 100%;
     font-size: .61rem;
-    text-transform: uppercase;
     line-height: 1;
 }
 .header__title{
     margin-left: 0.5rem;
-    text-transform: uppercase;
 }
 .header__more{
     height: 100%;
-    margin-left: -3rem;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    &li {
-        height: 100%;
-    }
-    &-search{
-        padding: 0 1rem;
-    }
-    &-add{
-        margin-left: 3rem;
-        text-transform: uppercase;
-    }
     &-link{
         color: $white;
         text-decoration: none;
@@ -48,6 +50,7 @@
             padding: .3rem .5rem;
             border: .5px solid $white;
             border-radius: 4px;
+            text-transform: capitalize;
         }
     }
 }

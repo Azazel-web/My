@@ -1,12 +1,10 @@
 .nav {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-left: 4rem;
+    margin: 0 4rem;
 }
 .nav__link{
+    
     color: $white;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
 }
