@@ -9,6 +9,9 @@
     margin-right: 2rem;
     border: 1px solid #ddd;
     border-radius: 4px;
+    &:last-child{
+        margin-right: 0;
+    }
 }
 .latent__title {
     color: #000;

@@ -9,12 +9,10 @@
 }
 .header__item{
     display: flex;
-    max-width: 100%;
     & li {
-        height: 90px;
+        height: 80px;
     }
     & a {
-        display: block;
         display: flex;
         align-items: center;
         height: 100%;
@@ -26,33 +24,39 @@
 }
 .header__logo-icon{
     border: 1px solid $white;
-    margin-top: 0.1rem;
+    margin-top: .4rem;
 }
 .header__logo-text{
-    width: 100%;
     font-size: .61rem;
-    line-height: 1;
+    line-height: 0;
 }
 .header__title{
-    margin-left: 0.5rem;
+    margin-left: .5rem;
+    margin-right: 3rem;
 }
 .header__more{
-    height: 100%;
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    margin-left: 3rem; 
     &-link{
         color: $white;
         text-decoration: none;
         text-align: center;
+        margin: 0 .3rem;
         &-lang{
+            display: flex;
+            align-items: center;
             color: $white;
             text-decoration: none;
-            text-align: center;
             padding: .3rem .5rem;
             border: .5px solid $white;
             border-radius: 4px;
             text-transform: capitalize;
         }
     }
+}
+.fas.fa-caret-down{
+    margin-left: .3rem;
+}
+.fas.fa-lock {
+    margin-left: .3rem;
 }
