@@ -57,6 +57,30 @@
 .fas.fa-caret-down{
     margin-left: .3rem;
 }
-.fas.fa-lock {
+.fas.fa-lock{
     margin-left: .3rem;
+}
+.location{
+    margin: 0.5rem 0;
+}
+.location__text{
+    color: #161616;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-right: 10px;
+}
+.location__link{
+    color: #999;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.6;
+    & a{
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+            text-decoration: underline;
+            color: #0af;
+        }
+    }
 }

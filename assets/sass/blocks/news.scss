@@ -1,0 +1,35 @@
+.news__inner{
+    display: flex;
+
+    background: $dark_blue;
+}
+.news__photo{
+   min-width: 65%;
+
+}
+.news__content{
+    min-width: 35%;
+}
+.news__img{
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+}
+.news__title{
+    line-height: 1.2;
+    color: white;
+    font-weight: 300;
+    text-decoration: none
+}
+.news__data{
+    color: #acacac;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+.news__text {
+    font-weight: 200;
+    font-size: 13px;
+}
